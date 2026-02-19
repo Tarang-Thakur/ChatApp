@@ -1,5 +1,7 @@
 # 💬 Java Chat Application — Client Server Model
 
+![Logo](asset/logo2.png)
+
 A real-time chat application built using **Java Socket Programming** and **Swing GUI** that enables communication between a client and a server over a TCP connection.
 
 This project demonstrates networking fundamentals, multithreading, and graphical user interface development in Java.
@@ -60,7 +62,13 @@ This project is ideal for understanding how real-world messaging systems work at
 ChatApp
 │── Client.java
 │── Server.java
-└── README.md
+│── README.md
+│
+└── asset
+    │── logo2.png
+    │── Screenshot1.png
+    │── Screenshot2.png
+    │── Screenshot3.png
 ```
 
 ---
@@ -93,19 +101,11 @@ javac Client.java
 java Server
 ```
 
-You should see:
-
-```
-Server is ready to accept connection...
-```
-
 ### Step 3 — Run Client
 
 ```bash
 java Client
 ```
-
-Now you can start chatting 🎉
 
 ⚠️ Make sure server is running before starting client.
 
@@ -120,17 +120,19 @@ Now you can start chatting 🎉
 
 ---
 
-## 📸 Screenshots (Optional)
+## 📸 Screenshots
 
-You can add screenshots here to make the project more attractive.
+### Screenshot 1
 
-Example:
+![Screenshot 1](asset/Screenshot1.png)
 
-```
-Screenshot1.png
-Screenshot2.png
-Screenshot3.png
-```
+### Screenshot 2
+
+![Screenshot 2](asset/Screenshot2.png)
+
+### Screenshot 3
+
+![Screenshot 3](asset/Screenshot3.png)
 
 ---
 
@@ -138,24 +140,12 @@ Screenshot3.png
 
 Through this project, you can learn:
 
-* Fundamentals of socket programming
+* Socket programming fundamentals
 * TCP client–server communication
-* Multithreading concepts in Java
+* Multithreading in Java
 * GUI development using Swing
 * Event-driven programming
 * Network application design
-
----
-
-## 🔮 Future Enhancements
-
-* Multiple client support (Group chat)
-* User authentication system
-* Message timestamps
-* Chat history storage (database)
-* Emoji support
-* File transfer feature
-* Internet-based deployment
 
 ---
 
@@ -168,10 +158,4 @@ GitHub: https://github.com/Tarang-Thakur
 
 ---
 
-## 📜 License
-
-This project is open-source and available under the MIT License.
-
----
-
-⭐ If you like this project, consider giving it a star on GitHub!
+⭐ If you like this project, consider giving it a star!
